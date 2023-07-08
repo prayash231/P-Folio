@@ -4,7 +4,7 @@
 }
 
 .menu-container{
-    background-color: rgb(255, 168, 168);
+    background-color: rgba(179, 10, 69, 0.697);
     padding: 20px;
     color: white;
     list-style: none;
@@ -44,7 +44,7 @@
     /* border: 2px solid gray; */
     /* background-color: rgb(255, 168, 168); */
     background-image: url(./images/background.png),
-    linear-gradient(45deg,rgb(178, 215, 221),rgb(171, 156, 156))
+    linear-gradient(45deg,rgb(226, 216, 21),rgb(227, 14, 14))
 }
 
 .title{
@@ -68,3 +68,39 @@
 .btn:hover{
     color: rgba(227, 131, 13, 0.893);
 }
+
+.about-section{
+    background-image: url(./images/background.png),
+    linear-gradient(45deg,rgb(222, 18, 117),rgb(198, 109, 13))
+}
+
+.about-title{
+    text-align: center;
+    font-size: 50px;
+    font-weight: bold;
+    padding-top: 20px;
+}
+
+.about-container{
+    display: flex;
+    justify-content: space-around;
+    height: 50vh;
+    align-items: center;
+    /* border: 2px solid gray; */
+    /* background-color: rgb(255, 168, 168); */
+    /* background-image: url(./images/background.png),
+    linear-gradient(45deg,rgb(178, 215, 221),rgb(171, 156, 156)) */
+}
+
+.about-container-img{
+    width: 250px;
+}
+
+.about-text-description{
+    margin-top: 15px;
+    margin-bottom: 15px;
+}
+
+
+
+
