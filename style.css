@@ -4,7 +4,8 @@
 }
 
 .menu-container{
-    background-color: rgba(179, 10, 69, 0.697);
+    background-image: url(./images/background.png),
+    linear-gradient(45deg,rgb(175, 169, 177),rgb(244, 244, 58));
     padding: 20px;
     color: white;
     list-style: none;
@@ -44,7 +45,7 @@
     /* border: 2px solid gray; */
     /* background-color: rgb(255, 168, 168); */
     background-image: url(./images/background.png),
-    linear-gradient(45deg,rgb(226, 216, 21),rgb(227, 14, 14))
+    linear-gradient(45deg,rgb(226, 216, 21),rgb(227, 14, 14));
 }
 
 .title{
@@ -99,6 +100,51 @@
 .about-text-description{
     margin-top: 15px;
     margin-bottom: 15px;
+}
+
+.box{
+    height: 280px;
+    width: 250px;
+    text-align: center;
+    /* border: 1px solid black; */
+    box-shadow: 4px 4px 15px gray;
+    background-color: rgb(239, 158, 158);
+    padding: 15px;
+    color: rgb(224, 233, 166);
+}
+
+.box-btn{
+    
+    padding: 10px 20px;
+    background-color: rgb(204, 197, 187);
+    border: none;
+    border-radius: 20px;
+    cursor: pointer;
+    margin-top: 10px;
+}
+
+.icon{
+    width: 70px;
+}
+
+.box-title{
+    padding: 10px;
+}
+
+.box-description{
+    padding: 5px;
+}
+
+.service-container{
+    display: flex;
+    justify-content: space-around;
+    padding: 20px;
+}
+
+.service-section{
+    /* background-color: rgb(186, 62, 186),linear-gradient(45deg,rgb(120, 166, 173),rgb(169, 93, 93)); */
+    background-image: url(./images/background.png),
+    linear-gradient(45deg,rgb(12, 250, 68),rgb(131, 114, 214))
 }
 
 
